@@ -4,12 +4,12 @@ import { Typography, Link, Box } from '@mui/material';
 function AboutMe() {
 
   return (
-    <Box id={"aboutme"}>
+    <Box id={"aboutme"} height={"100%"}>
       <Grid container>
-        <Grid xs={12} sm={6} padding={10}>
+        <Grid item xs={12} sm={6} padding={9}>
           <h1> Picture </h1>
         </Grid>
-        <Grid xs={12} sm={6} padding={10}>
+        <Grid item xs={12} sm={6} padding={9}>
           <Typography variant="h1" gutterBottom fontSize={52} fontWeight={500} margin={0}>
             Hello!
           </Typography>
