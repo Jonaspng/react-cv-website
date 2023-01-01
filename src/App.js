@@ -1,8 +1,9 @@
 import { Button } from "@mui/material";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
-    <Button variant="outlined">Outlined</Button>
+    <MainPage />
   );
 }
 
