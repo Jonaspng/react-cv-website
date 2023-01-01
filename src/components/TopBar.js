@@ -12,8 +12,8 @@ import MenuItem from '@mui/material/MenuItem';
 import { ThemeProvider } from '@emotion/react';
 import Theme from '../Theme';
 
-const pages = [{title: 'About Me', id: '#aboutme'},{title: 'Recent Activity', id:'#recentactivity'}, 
-{title: 'Projects', id:'#projects'}, {title:'History', id:'#history'}];
+const pages = [{title: 'About Me', id: 'aboutme'},{title: 'Recent Activity', id:'recentactivity'}, 
+{title: 'Projects', id:'projects'}, {title:'History', id:'history'}];
 
 function Topbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -22,8 +22,10 @@ function Topbar() {
     setAnchorElNav(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (id) => {
     setAnchorElNav(null);
+    console.log(id);
+    document.getElementById(id).scrollIntoView({behavior: "smooth"});
   };
 
   return (
@@ -78,7 +80,7 @@ function Topbar() {
                   }}
                 >
                   {pages.map((page) => (
-                    <MenuItem key={page.title} onClick={handleCloseNavMenu} href={page.id}>
+                    <MenuItem key={page.title} onClick={() => handleCloseNavMenu(page.id)}>
                       <Typography textAlign="center">{page.title}</Typography>
                     </MenuItem>
                   ))}
@@ -105,9 +107,8 @@ function Topbar() {
                 {pages.map((page) => (
                   <Button
                     key={page.title}
-                    onClick={handleCloseNavMenu}
+                    onClick={() => handleCloseNavMenu(page.id)}
                     sx={{ my: 2, color: 'white', display: 'block'}}
-                    href={page.id}
                   >
                     {page.title}
                   </Button>
