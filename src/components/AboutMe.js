@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function AboutMe() {
 
   return (
-    <Box id={"aboutme"} height={"100%"}>
+    <Box id={"aboutme"} height={"102%"}>
       <Grid container>
         <Grid item xs={12} sm={6} padding={9} sx={{ display: { xs: 'none', sm: 'block' }}}>
           <h1> Picture </h1>

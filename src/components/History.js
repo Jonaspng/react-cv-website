@@ -4,7 +4,7 @@ import { Typography, Box, Link } from "@mui/material";
 
 function History() {
   return(
-    <Box padding={4} id={'history'}>
+    <Box id={'history'}>
       <Typography variant="h3" gutterBottom fontSize={52} fontWeight={500}>
         History of CV website
       </Typography>
