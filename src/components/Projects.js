@@ -21,7 +21,7 @@ function Projects() {
   }
   
   return (
-    <Box padding={6} id={'projects'}>
+    <Box padding={4} id={'projects'}>
       <Typography variant="h3" gutterBottom fontSize={52} fontWeight={500}>
         Projects
       </Typography>

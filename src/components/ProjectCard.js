@@ -10,7 +10,7 @@ function ProjectCard(props) {
   function renderList(description) {
     return (
       <Box display={'flex'}>
-        <CircleIcon sx={{height: 7, width: 7, mt:0.5, mr: 1}}/>
+        <CircleIcon sx={{height: 7, width: 7, mt:0.8, mr: 1}}/>
         <Typography variant="body2">
           {description}
         </Typography>
@@ -21,7 +21,7 @@ function ProjectCard(props) {
 
   return (
     <Grid item xs={12} md={6} lg={4} align='center' padding={1}>
-      <Card variant='outlined' sx={{ maxWidth: 345, borderRadius:3 }} align='left'>
+      <Card variant='outlined' sx={{ width:"95%", borderRadius:3 }} align='left'>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {props.title}
