@@ -5,7 +5,7 @@ function BottomBar() {
   return (
     <Box sx={{backgroundColor: 'black'}} padding={5}>
       <Typography sx={{color:'white'}}>
-      © Png Yi Wei Jonas. All rights reserved.
+        © Png Yi Wei Jonas. All rights reserved.
       </Typography>
     </Box>
   );

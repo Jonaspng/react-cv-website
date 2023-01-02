@@ -1,4 +1,3 @@
-import { Box } from '@mui/material';
 import React from 'react';
 import AboutMe from '../components/AboutMe';
 import BottomBar from '../components/BottomBar';
@@ -12,15 +11,12 @@ function MainPage() {
   return (
     <>
       <Topbar />
-      <Box height={'100%'} paddingLeft={4} paddingRight={4} >
-        <AboutMe />
-        <RecentActivity />
-        <Projects />
-        <History />
-        <BottomBar />
-      </Box>
+      <AboutMe />
+      <RecentActivity />
+      <Projects />
+      <History />
+      <BottomBar />
     </>
-    
     
   );
 

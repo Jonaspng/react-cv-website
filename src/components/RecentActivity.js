@@ -3,9 +3,9 @@ import { Box, Typography } from "@mui/material"
 function RecentActivity() {
 
   return (
-    <Box>
+    <Box padding={4} id={"recentactivity"}>
       <Typography variant="h3" gutterBottom fontSize={52} fontWeight={500}>
-        History of CV website
+        Recent Activity
       </Typography>
     </Box>
   );
