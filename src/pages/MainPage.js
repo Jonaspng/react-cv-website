@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe';
 import BottomBar from '../components/BottomBar';
 import History from '../components/History';
 import Projects from '../components/Projects';
+import RecentActivity from '../components/RecentActivity';
 import Topbar from '../components/TopBar';
 
 function MainPage() {
@@ -11,6 +12,7 @@ function MainPage() {
     <>
       <Topbar />
       <AboutMe />
+      <RecentActivity />
       <Projects />
       <History />
       <BottomBar />
