@@ -1,5 +1,7 @@
 import Grid from '@mui/material/Grid';
 import { Typography, Link, Box } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function AboutMe() {
 
@@ -22,6 +24,8 @@ function AboutMe() {
           <Typography variant="h6" gutterBottom fontSize={22} fontWeight={400} margin={0} sx={{ pt: 2, pb: 2}}>
             I have strong interest in Web Development, Database and DevOps.
           </Typography>
+          <Link href="https://github.com/Jonaspng"><GitHubIcon fontSize='large' sx={{color:'black', mr: 2}} /></Link>
+          <Link href="https://www.linkedin.com/in/png-yi-wei-jonas-836a4a206"><LinkedInIcon fontSize='large' sx={{color:'black'}}/></Link>
         </Grid>
       </Grid>
     </Box>
