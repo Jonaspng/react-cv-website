@@ -1,4 +1,5 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import ProjectCard from "./ProjectCard";
 import ProjectData from "./ProjectData";
 
@@ -20,9 +21,15 @@ function Projects() {
   }
   
   return (
-    <Grid container>
-      {data.map(renderCard)}
-    </Grid>
+    <Box padding={6} id={'projects'}>
+      <Typography variant="h3" gutterBottom fontSize={52} fontWeight={500}>
+        Projects
+      </Typography>
+      <Grid container>
+        {data.map(renderCard)}
+      </Grid>
+    </Box>
+    
   );
 
 }
