@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <Box id={"aboutme"} height={"100%"}>
       <Grid container>
-        <Grid item xs={12} sm={6} padding={9}>
+        <Grid item xs={12} sm={6} padding={9} sx={{ display: { xs: 'none', sm: 'block' }}}>
           <h1> Picture </h1>
         </Grid>
         <Grid item xs={12} sm={6} padding={9}>
