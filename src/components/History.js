@@ -1,18 +1,23 @@
-import { Timeline, TimelineConnector, TimelineItem, TimelineSeparator, TimelineDot, TimelineContent, TimelineOppositeContent } from "@mui/lab";
+import { Timeline, TimelineConnector, TimelineItem, TimelineSeparator, TimelineDot, TimelineContent, TimelineOppositeContent, timelineOppositeContentClasses } from "@mui/lab";
 import { Typography, Box, Link } from "@mui/material";
 
 
 function History() {
-
   return(
     <Box padding={4} id={'history'}>
       <Typography variant="h3" gutterBottom fontSize={52} fontWeight={500}>
         History of CV website
       </Typography>
-      <Timeline position="right">
+      <Timeline 
+        position="right" 
+        sx={{
+          [`& .${timelineOppositeContentClasses.root}`]: {
+            flex: 0.1,
+          }}}
+      >
         <TimelineItem>
           <TimelineOppositeContent color={'grey'}>
-            January 2023
+            Jan 2023
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="success" />
@@ -28,7 +33,7 @@ function History() {
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent color={'grey'}>
-            August 2021
+            Aug 2021
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="primary" />
@@ -44,7 +49,7 @@ function History() {
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent color={'grey'}>
-            Feburary 2021
+            Feb 2021
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="secondary" />

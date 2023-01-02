@@ -22,9 +22,8 @@ function Topbar() {
 
   const handleCloseNavMenu = (id) => {
     setAnchorElNav(null);
-    console.log(id);
-    document.getElementById(id).scrollIntoView({behavior: "smooth"});
-  };
+    setTimeout(() => {document.getElementById(id).scrollIntoView({behavior: "smooth"});}, 100);
+  }
 
   return (
     <AppBar position="static" sx={{backgroundColor: 'black'}}>
@@ -99,7 +98,7 @@ function Topbar() {
           >
             Jonas
           </Typography>
-          <Box sx={{ display: { xs: 'none', md: 'flex'}, marginLeft:'auto'  }}>
+          <Box sx={{ display: { xs: 'none', md: 'flex'}, marginLeft:'auto'}}>
             {pages.map((page) => (
               <Button
                 key={page.title}
