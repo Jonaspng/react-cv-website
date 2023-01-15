@@ -26,7 +26,7 @@ function Topbar() {
   }
 
   return (
-    <AppBar position="static" sx={{backgroundColor: 'black'}}>
+    <AppBar position="fixed" sx={{backgroundColor: 'black'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography

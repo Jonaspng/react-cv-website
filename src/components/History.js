@@ -25,7 +25,7 @@ function History() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography>
-              <Link underline='none' color='black' href='#'>
+              <Link underline='none' color='white' href='#'>
                 React CV Website with Material UI
               </Link>
             </Typography>
@@ -41,7 +41,7 @@ function History() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography>
-              <Link underline='none' color='black' href='https://jonaspng.github.io/cv2/'>
+              <Link underline='none' color='white' href='https://jonaspng.github.io/cv2/'>
                 CV Website with Bootstrap
               </Link>
             </Typography>
@@ -56,7 +56,7 @@ function History() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography>
-                <Link underline='none' color='black' href='https://jonaspng.github.io/cv/'>
+                <Link underline='none' color='white' href='https://jonaspng.github.io/cv/'>
                   First CV Website
                 </Link>
             </Typography>
