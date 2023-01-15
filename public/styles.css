@@ -2,6 +2,8 @@ body {
   margin: 0;
   overflow-anchor: none;
   height: 100%;
+  background-color: black;
+  color: white;
 }
 
 #root {
@@ -10,4 +12,103 @@ body {
 
 html {
   height: 100%;
+}
+
+.main-area {
+
+}
+
+.circles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -10;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+    border-radius: 10%;
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    border-radius: 80%;
+    transform: translateY(-1000px) rotate(720deg);
+  }
+}
+
+.circles div {
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.2);
+  bottom: -150px;
+  animation: animate 25s linear infinite;
+}
+
+.circles div:nth-child(1) {
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 0s;
+}
+
+.circles div:nth-child(2) {
+  left: 10%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 12s;
+}
+
+.circles div:nth-child(3) {
+  left: 70%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 3s;
+}
+
+.circles div:nth-child(4) {
+  left: 40%;
+  width: 55px;
+  height: 55px;
+  animation-delay: 5s;
+  animation-duration: 18s;
+}
+
+.circles div:nth-child(5) {
+  left: 30%;
+  width: 45px;
+  height: 45px;
+  animation-delay: 8s;
+  animation-duration: 13s;
+}
+
+.circles div:nth-child(6) {
+  left: 90%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 0s;
+  animation-duration: 13s;
+}
+
+.circles div:nth-child(7) {
+  left: 60%;
+  width: 70px;
+  height: 70px;
+  animation-delay: 8s;
+  animation-duration: 13s;
+}
+
+.circles div:nth-child(8) {
+  left: 80%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 10s;
+  animation-duration: 13s;
 }
