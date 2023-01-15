@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import ProjectCard from "./ProjectCard";
-import ProjectData from "./ProjectData";
+import ProjectData from "../data/ProjectData";
 
 
 function Projects() {

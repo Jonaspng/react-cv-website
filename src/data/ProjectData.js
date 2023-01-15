@@ -21,7 +21,7 @@ const ProjectData = [
                   "Game was built to allow NUS Computing students relive stress."],
     technologies: "Unity, C#",
     githubLink:"https://github.com/Jonaspng/Orbital-Project_Mastercard",
-    websiteLink:"https://github.com/Jonaspng/Orbital-Project_Mastercard"},
+    websiteLink:"https://jonaspng.github.io/Orbital-Project_Mastercard/Builds/Milestone%203/index.html"},
   { title: "GPA Tracker",
     descriptions:["First attempt with ReactJS.",
                   "Web Application for students to keep track of their GPA for each semester.",
