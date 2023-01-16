@@ -27,7 +27,7 @@ function ActivityTimlineItem(props) {
           {props.event.type.slice(0, props.event.type.length - 5) == "Push"?
             props.event.payload.commits[0].message: null}
         </Typography>
-        <Typography gutterBottom variant="body2" color={'#212121'}>
+        <Typography gutterBottom variant="body2" color={'#979797'}>
           {moment(new Date(props.event.created_at)).fromNow()}
         </Typography>
         </Card>
