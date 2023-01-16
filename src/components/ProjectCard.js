@@ -1,4 +1,4 @@
-import { Button, Card, CardActions, CardContent, Grid, Link, Typography } from "@mui/material";
+import { Card, CardActions, CardContent, Grid, Link, Typography } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import CircleIcon from '@mui/icons-material/Circle';
@@ -9,7 +9,7 @@ function ProjectCard(props) {
 
   function renderList(description) {
     return (
-      <Box display={'flex'}>
+      <Box display={'flex'} key={description}>
         <CircleIcon sx={{height: 7, width: 7, mt:0.8, mr: 1}}/>
         <Typography variant="body2">
           {description}

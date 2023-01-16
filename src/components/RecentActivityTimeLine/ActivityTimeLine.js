@@ -6,7 +6,7 @@ function ActivityTimeLine(props) {
 
   function renderItem(event) {
     return (
-      <ActivityTimlineItem id={event.created_at} event={event}/>
+      <ActivityTimlineItem key={event.created_at} event={event}/>
     );
   }
   return (

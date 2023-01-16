@@ -11,6 +11,7 @@ function Projects() {
   function renderCard(data) {
     return (
       <ProjectCard
+        key={data.title}
         title={data.title}
         descriptions={data.descriptions}
         technologies={data.technologies}
