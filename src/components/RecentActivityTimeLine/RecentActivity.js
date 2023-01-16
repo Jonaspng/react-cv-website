@@ -1,10 +1,12 @@
 import { React, useState, useEffect } from "react";
 import { Box, Typography } from "@mui/material"
-import ActivityTimeLine from "./RecentActivityTimeLine/ActivityTimeLine";
+
+import ActivityTimeLine from "./ActivityTimeLine";
+import DefaultActivityData from "../../data/DefaultActivityData";
 
 function RecentActivity() {
 
-  const [activityData, setActivityData] = useState([]);
+  const [activityData, setActivityData] = useState(DefaultActivityData);
 
   async function getRecentActivity(){
     try {

@@ -4,7 +4,8 @@ import BottomBar from '../components/BottomBar';
 import Circles from '../components/Circles';
 import History from '../components/History';
 import Projects from '../components/Projects';
-import RecentActivity from '../components/RecentActivity';
+import RecentActivity from '../components/RecentActivityTimeLine/RecentActivity';
+
 import Topbar from '../components/TopBar';
 
 function MainPage() {

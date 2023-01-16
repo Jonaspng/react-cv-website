@@ -1,4 +1,4 @@
-const ActivityData = [
+const DefaultActivityData = [
   {
     "id": "26427953504",
     "type": "PushEvent",
@@ -295,4 +295,4 @@ const ActivityData = [
   }
 ]
 
-export default ActivityData;
+export default DefaultActivityData;
