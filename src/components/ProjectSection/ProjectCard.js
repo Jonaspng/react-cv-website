@@ -20,7 +20,7 @@ function ProjectCard(props) {
   }
 
   return (
-    <Grid item xs={12} md={6} lg={4} align='center' padding={1}>
+    <Grid item xs={12} md={6} lg={4} align='center' paddingY={2} paddingX={1}>
       <Card variant='outlined' sx={{ width:"95%", borderRadius:3 }} align='left'>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
