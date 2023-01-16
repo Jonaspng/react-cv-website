@@ -1,12 +1,13 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe';
-import BottomBar from '../components/BottomBar';
+
 import Circles from '../components/Circles';
 import History from '../components/History';
-import Projects from '../components/Projects';
+import Projects from '../components/ProjectSection/Projects';
 import RecentActivity from '../components/RecentActivityTimeLine/RecentActivity';
 
-import Topbar from '../components/TopBar';
+import Topbar from '../components/Bars/TopBar';
+import BottomBar from '../components/Bars/BottomBar';
 
 function MainPage() {
 
@@ -20,7 +21,6 @@ function MainPage() {
         <History />
         <Circles />
       </div>
-      
       <BottomBar />
     </>
     
