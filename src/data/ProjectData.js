@@ -14,7 +14,7 @@ const ProjectData = [
                   "Received A- grade for the project"],
     technologies: "Java, JavaFx",
     githubLink:"https://github.com/AY2223S1-CS2103T-W08-3/tp",
-    websiteLink:"https://github.com/AY2223S1-CS2103T-W08-3/tp"},
+    websiteLink:"https://ay2223s1-cs2103t-w08-3.github.io/tp/UserGuide.html"},
   { title: "Andriod Mobile Game",
     descriptions:["First attempt at making a game and a mobile application.",
                   "Project was initiated as part of NUS Orbital: Apollo.",
