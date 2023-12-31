@@ -20,13 +20,13 @@ function AboutMe() {
               Hello!
             </Typography>
             <Typography variant="h1" gutterBottom fontSize={52} fontWeight={500} margin={0}>
-              I am Jonas.
+              I am Jonas Png.
             </Typography>
             <Typography variant="h3" gutterBottom fontSize={22} fontWeight={700} margin={0}>
-              Year 2 Computer Science Undergraduate @ <Link href='https://www.nus.edu.sg/' underline='none' color='white'>NUS</Link>
+              Year 3 Computer Science Undergraduate @ <Link href='https://www.nus.edu.sg/' underline='none' color='white'>NUS</Link>
             </Typography>
             <Typography variant="h6" gutterBottom fontSize={22} fontWeight={400} margin={0} sx={{ pt: 2, pb: 2}}>
-              I have strong interest in Web Development, Database and DevOps.
+              I have strong interest in Web Development, AI and Cyber Security.
             </Typography>
             <Link href="https://github.com/Jonaspng"><GitHubIcon fontSize='large' sx={{color:'white', mr: 2}} /></Link>
             <Link href="https://www.linkedin.com/in/png-yi-wei-jonas-836a4a206"><LinkedInIcon fontSize='large' sx={{color:'white'}}/></Link>

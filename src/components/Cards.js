@@ -5,7 +5,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 import { Box } from "@mui/system";
 
 
-function ProjectCard(props) {
+function Cards(props) {
 
   function renderList(description) {
     return (
@@ -27,7 +27,10 @@ function ProjectCard(props) {
             {props.title}
           </Typography>
           <Typography gutterBottom variant="body1" component="div">
-            Description
+            {props.location}
+          </Typography>
+          <Typography gutterBottom variant="body2" component="div">
+            {props.date}
           </Typography>
           {props.descriptions.map(renderList)}
           <Typography gutterBottom variant="body1" component="div" sx={{mt: 1}}>
@@ -37,14 +40,15 @@ function ProjectCard(props) {
             {props.technologies}
           </Typography>
         </CardContent>
+        {props.hasActions === "true" &&
         <CardActions>
           <Link href={props.githubLink} sx={{color: "black"}} margin={1}><GitHubIcon fontSize='large'/></Link>
           <Link href={props.websiteLink} sx={{color: "black"}} margin={1}><OpenInBrowserIcon fontSize='large'/></Link>
-        </CardActions>
+        </CardActions>}
       </Card>
     </Grid>
     
   );
 }
 
-export default ProjectCard;
+export default Cards;

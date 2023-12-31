@@ -6,7 +6,7 @@ import DefaultActivityData from "../../data/DefaultActivityData";
 
 function RecentActivity() {
 
-  const [activityData, setActivityData] = useState(DefaultActivityData);
+  const [activityData, setActivityData] = useState([]);
 
   async function getRecentActivity(){
     try {
@@ -15,6 +15,9 @@ function RecentActivity() {
             .then((data) => setActivityData(data.slice(0,5)));
     } catch(error) {
         console.log(error);
+    }
+    if (activityData.length === 0) {
+      setActivityData(DefaultActivityData)
     }
 }
   useEffect(()=> {

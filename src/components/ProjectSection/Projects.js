@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import ProjectCard from "./ProjectCard";
+import Cards from "../Cards";
 import ProjectData from "../../data/ProjectData";
 
 
@@ -10,13 +10,14 @@ function Projects() {
 
   function renderCard(data) {
     return (
-      <ProjectCard
+      <Cards
         key={data.title}
         title={data.title}
         descriptions={data.descriptions}
         technologies={data.technologies}
         githubLink={data.githubLink}
         websiteLink={data.websiteLink}
+        hasActions="true"
       />
     );
   }
