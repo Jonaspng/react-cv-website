@@ -17,8 +17,8 @@ function MainPage() {
       <Topbar />
       <div>
         <AboutMe />
-        <Experiences />
         <RecentActivity />
+        <Experiences />
         <Projects />
         <History />
         <Circles />

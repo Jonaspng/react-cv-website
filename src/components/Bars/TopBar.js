@@ -10,8 +10,8 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = [{title: 'About Me', id: 'aboutme'},{title: 'Recent Activity', id:'recentactivity'}, 
-{title: 'Projects', id:'projects'}, {title:'History', id:'history'}];
+const sections = [{title: 'About Me', id: 'aboutme'},{title: 'Recent Activity', id:'recentactivity'}, 
+{title: 'Experience', id: 'experience'}, {title: 'Projects', id:'projects'}, {title:'History', id:'history'}];
 
 function Topbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -74,9 +74,9 @@ function Topbar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page.title} onClick={() => handleCloseNavMenu(page.id)}>
-                  <Typography textAlign="center">{page.title}</Typography>
+              {sections.map((section) => (
+                <MenuItem key={section.title} onClick={() => handleCloseNavMenu(section.id)}>
+                  <Typography textAlign="center">{section.title}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -99,13 +99,13 @@ function Topbar() {
             Jonas
           </Typography>
           <Box sx={{ display: { xs: 'none', md: 'flex'}, marginLeft:'auto'}}>
-            {pages.map((page) => (
+            {sections.map((section) => (
               <Button
-                key={page.title}
-                onClick={() => handleCloseNavMenu(page.id)}
+                key={section.title}
+                onClick={() => handleCloseNavMenu(section.id)}
                 sx={{ my: 2, color: 'white', display: 'block'}}
               >
-                {page.title}
+                {section.title}
               </Button>
             ))}
           </Box>

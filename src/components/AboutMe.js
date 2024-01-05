@@ -26,7 +26,7 @@ function AboutMe() {
               Year 3 Computer Science Undergraduate @ <Link href='https://www.nus.edu.sg/' underline='none' color='white'>NUS</Link>
             </Typography>
             <Typography variant="h6" gutterBottom fontSize={22} fontWeight={400} margin={0} sx={{ pt: 2, pb: 2}}>
-              I have strong interest in Web Development, AI and Cyber Security.
+              I have strong interest in Web Development, Artficial Intelligence and Cyber Security.
             </Typography>
             <Link href="https://github.com/Jonaspng"><GitHubIcon fontSize='large' sx={{color:'white', mr: 2}} /></Link>
             <Link href="https://www.linkedin.com/in/png-yi-wei-jonas-836a4a206"><LinkedInIcon fontSize='large' sx={{color:'white'}}/></Link>

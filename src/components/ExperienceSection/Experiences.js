@@ -25,7 +25,7 @@ function Experiences() {
   }
   
   return (
-    <Box pt={3} pl={4} pr={4} id={'projects'}>
+    <Box pt={10} pl={4} pr={4} id={'experience'}>
       <Typography variant="h3" gutterBottom fontSize={52} fontWeight={500}>
         Experience
       </Typography>
