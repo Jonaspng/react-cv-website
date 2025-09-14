@@ -1,297 +1,163 @@
 const DefaultActivityData = [
   {
-    "id": "26427953504",
     "type": "PushEvent",
     "actor": {
       "id": 60882425,
       "login": "Jonaspng",
       "display_login": "Jonaspng",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Jonaspng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?"
+      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?v=4",
+      "url": "https://api.github.com/users/Jonaspng"
     },
     "repo": {
-      "id": 588577872,
-      "name": "Jonaspng/WaterBoi",
-      "url": "https://api.github.com/repos/Jonaspng/WaterBoi"
+      "id": 123456789,
+      "name": "Jonaspng/coursemology2",
+      "url": "https://api.github.com/repos/Jonaspng/coursemology2"
     },
     "payload": {
-      "push_id": 12283869228,
-      "size": 2,
-      "distinct_size": 2,
-      "ref": "refs/heads/master",
-      "head": "fa815623c6863a980214f54b63d5224e6296f24c",
-      "before": "05250fd2bfb4483d8574ed59aefd1e45b398ace9",
-      "commits": [
-        {
-          "sha": "936e81ece55d6c7e222f218826511c6ba495d6ca",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Add margin",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/936e81ece55d6c7e222f218826511c6ba495d6ca"
-        },
-        {
-          "sha": "fa815623c6863a980214f54b63d5224e6296f24c",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Merge branch 'master' of https://github.com/Jonaspng/WaterBoi",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/fa815623c6863a980214f54b63d5224e6296f24c"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2023-01-14T12:42:26Z"
-  },
-  {
-    "id": "26427901983",
-    "type": "PushEvent",
-    "actor": {
-      "id": 60882425,
-      "login": "Jonaspng",
-      "display_login": "Jonaspng",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Jonaspng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?"
-    },
-    "repo": {
-      "id": 588577872,
-      "name": "Jonaspng/WaterBoi",
-      "url": "https://api.github.com/repos/Jonaspng/WaterBoi"
-    },
-    "payload": {
-      "push_id": 12283832486,
-      "size": 2,
-      "distinct_size": 2,
-      "ref": "refs/heads/master",
-      "head": "cc6cf5aa551fe3301e728656894b11ab29774de8",
-      "before": "d4873fe0cd8849ccd036416a7bf04c6b0a65cc0d",
-      "commits": [
-        {
-          "sha": "2517332fa3d9e8a5d7aba1a84bdf24fdf88da361",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Convert to rn paper card",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/2517332fa3d9e8a5d7aba1a84bdf24fdf88da361"
-        },
-        {
-          "sha": "cc6cf5aa551fe3301e728656894b11ab29774de8",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Merge branch 'master' of https://github.com/Jonaspng/WaterBoi",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/cc6cf5aa551fe3301e728656894b11ab29774de8"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2023-01-14T12:33:57Z"
-  },
-  {
-    "id": "26427674119",
-    "type": "PushEvent",
-    "actor": {
-      "id": 60882425,
-      "login": "Jonaspng",
-      "display_login": "Jonaspng",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Jonaspng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?"
-    },
-    "repo": {
-      "id": 588577872,
-      "name": "Jonaspng/WaterBoi",
-      "url": "https://api.github.com/repos/Jonaspng/WaterBoi"
-    },
-    "payload": {
-      "push_id": 12283669876,
+      "push_id": "f9d7bb6d1284da3e",
       "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/master",
-      "head": "11bdec680faa30a405af9d95ffec2e49d79cb90f",
-      "before": "8435aee1402cd1203d1f3694f4909eca33df424f",
       "commits": [
         {
-          "sha": "11bdec680faa30a405af9d95ffec2e49d79cb90f",
+          "sha": "f9d7bb6d1284da3effaa50682d06e4b15c391542",
+          "message": "test(rspec): modify rag-wise test cases\n\n- add docx and ipynb file for testing\n- modify test cases to account for new file types and disabling of generate reply button for AI generated post",
           "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
+            "name": "Jonaspng",
+            "email": "jonaspng@hotmail.com"
           },
-          "message": "Delete unnecessary stuff",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/11bdec680faa30a405af9d95ffec2e49d79cb90f"
+          "url": "https://github.com/Jonaspng/coursemology2/commit/f9d7bb6d1284da3effaa50682d06e4b15c391542"
         }
       ]
     },
     "public": true,
-    "created_at": "2023-01-14T11:58:23Z"
+    "created_at": "2025-03-21T08:55:39Z"
   },
   {
-    "id": "26427608023",
     "type": "PushEvent",
     "actor": {
       "id": 60882425,
       "login": "Jonaspng",
       "display_login": "Jonaspng",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Jonaspng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?"
+      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?v=4",
+      "url": "https://api.github.com/users/Jonaspng"
     },
     "repo": {
-      "id": 588577872,
-      "name": "Jonaspng/WaterBoi",
-      "url": "https://api.github.com/repos/Jonaspng/WaterBoi"
+      "id": 123456789,
+      "name": "Jonaspng/coursemology2",
+      "url": "https://api.github.com/repos/Jonaspng/coursemology2"
     },
     "payload": {
-      "push_id": 12283625177,
-      "size": 4,
-      "distinct_size": 4,
-      "ref": "refs/heads/master",
-      "head": "8435aee1402cd1203d1f3694f4909eca33df424f",
-      "before": "837058620a06a4905b0051b7f5e6d29a66f4b3e7",
-      "commits": [
-        {
-          "sha": "7f6cf4ba8707cf0c388ac8d53a0ed884f7309ffb",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Update list data",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/7f6cf4ba8707cf0c388ac8d53a0ed884f7309ffb"
-        },
-        {
-          "sha": "db09a170e232e4150df5743cf9a37327534b1fc0",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Merge branch 'master' of https://github.com/Jonaspng/WaterBoi",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/db09a170e232e4150df5743cf9a37327534b1fc0"
-        },
-        {
-          "sha": "cc2b9f14d5693f34481516b403e2de562e347744",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Modify list",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/cc2b9f14d5693f34481516b403e2de562e347744"
-        },
-        {
-          "sha": "8435aee1402cd1203d1f3694f4909eca33df424f",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Merge branch 'master' of https://github.com/Jonaspng/WaterBoi",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/8435aee1402cd1203d1f3694f4909eca33df424f"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2023-01-14T11:46:09Z"
-  },
-  {
-    "id": "26426621389",
-    "type": "PushEvent",
-    "actor": {
-      "id": 60882425,
-      "login": "Jonaspng",
-      "display_login": "Jonaspng",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Jonaspng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?"
-    },
-    "repo": {
-      "id": 588577872,
-      "name": "Jonaspng/WaterBoi",
-      "url": "https://api.github.com/repos/Jonaspng/WaterBoi"
-    },
-    "payload": {
-      "push_id": 12282955923,
-      "size": 2,
-      "distinct_size": 2,
-      "ref": "refs/heads/master",
-      "head": "b5a88e1665032deb69998a31be14918af65de536",
-      "before": "c78f762960f2adec19c6b17329b3463394fab5e8",
-      "commits": [
-        {
-          "sha": "aa33aece3474ec1513291816d20b6d28fad4234d",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Add RecordList",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/aa33aece3474ec1513291816d20b6d28fad4234d"
-        },
-        {
-          "sha": "b5a88e1665032deb69998a31be14918af65de536",
-          "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
-          },
-          "message": "Merge branch 'master' of https://github.com/Jonaspng/WaterBoi\n\n# Conflicts:\n#\tpackage-lock.json\n#\tscreens/HomeScreen.js",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/b5a88e1665032deb69998a31be14918af65de536"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2023-01-14T08:47:35Z"
-  },
-  {
-    "id": "26425883610",
-    "type": "PushEvent",
-    "actor": {
-      "id": 60882425,
-      "login": "Jonaspng",
-      "display_login": "Jonaspng",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Jonaspng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?"
-    },
-    "repo": {
-      "id": 588577872,
-      "name": "Jonaspng/WaterBoi",
-      "url": "https://api.github.com/repos/Jonaspng/WaterBoi"
-    },
-    "payload": {
-      "push_id": 12282453942,
+      "push_id": "7d0cf53399673b8f",
       "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/master",
-      "head": "bd5661b34bcd3f6e9b57b200d06804dd2023dc9e",
-      "before": "8672b4ac77f5f29f990f6c1d521856f0a13e81f0",
       "commits": [
         {
-          "sha": "bd5661b34bcd3f6e9b57b200d06804dd2023dc9e",
+          "sha": "7d0cf53399673b8f3a8b882ab5548c2a12842b21",
+          "message": "feat(UI): update UI for rag-wise upgrades\n\n- add generate reply button for all forum posts\n- disable generate reply button for AI generated posts\n- update translation for supported file types",
           "author": {
-            "email": "jonaspng@hotmail.com",
-            "name": "Jonaspng"
+            "name": "Jonaspng",
+            "email": "jonaspng@hotmail.com"
           },
-          "message": "Add back app.js",
-          "distinct": true,
-          "url": "https://api.github.com/repos/Jonaspng/WaterBoi/commits/bd5661b34bcd3f6e9b57b200d06804dd2023dc9e"
+          "url": "https://github.com/Jonaspng/coursemology2/commit/7d0cf53399673b8f3a8b882ab5548c2a12842b21"
         }
       ]
     },
     "public": true,
-    "created_at": "2023-01-14T06:23:03Z"
+    "created_at": "2025-03-21T08:09:10Z"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "id": 60882425,
+      "login": "Jonaspng",
+      "display_login": "Jonaspng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?v=4",
+      "url": "https://api.github.com/users/Jonaspng"
+    },
+    "repo": {
+      "id": 123456789,
+      "name": "Jonaspng/coursemology2",
+      "url": "https://api.github.com/repos/Jonaspng/coursemology2"
+    },
+    "payload": {
+      "push_id": "b7426ea9929a3834",
+      "size": 1,
+      "commits": [
+        {
+          "sha": "b7426ea9929a3834b133c0305f2e1e06303c1f2f",
+          "message": "feat(rag-wise): rag-wise upgrades\n\n- add current forum topic history (latest 5 posts) to LLM for context\n- add discussion_extraction_service to encapsulate discussion extraction logic for topic history and forum discussion imports\n- increase text chunk size to 800\n- update prompt template\n- add auto response for all new student posts\n- add generate reply button for all forum posts but disable button for AI generated posts",
+          "author": {
+            "name": "Jonaspng",
+            "email": "jonaspng@hotmail.com"
+          },
+          "url": "https://github.com/Jonaspng/coursemology2/commit/b7426ea9929a3834b133c0305f2e1e06303c1f2f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-03-21T08:08:21Z"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "id": 60882425,
+      "login": "Jonaspng",
+      "display_login": "Jonaspng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?v=4",
+      "url": "https://api.github.com/users/Jonaspng"
+    },
+    "repo": {
+      "id": 123456789,
+      "name": "Jonaspng/coursemology2",
+      "url": "https://api.github.com/repos/Jonaspng/coursemology2"
+    },
+    "payload": {
+      "push_id": "ffa661bf66867bac",
+      "size": 1,
+      "commits": [
+        {
+          "sha": "ffa661bf66867bac277b6fb5efede41693f0b886",
+          "message": "test(rspec): modify topic management test case\n\n- add expect toastify to check that success message actually pops up",
+          "author": {
+            "name": "Jonaspng",
+            "email": "jonaspng@hotmail.com"
+          },
+          "url": "https://github.com/Jonaspng/coursemology2/commit/ffa661bf66867bac277b6fb5efede41693f0b886"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-03-21T13:49:31Z"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "id": 60882425,
+      "login": "Jonaspng",
+      "display_login": "Jonaspng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60882425?v=4",
+      "url": "https://api.github.com/users/Jonaspng"
+    },
+    "repo": {
+      "id": 123456789,
+      "name": "Jonaspng/coursemology2",
+      "url": "https://api.github.com/repos/Jonaspng/coursemology2"
+    },
+    "payload": {
+      "push_id": "1b5321c37d1f1417",
+      "size": 1,
+      "commits": [
+        {
+          "sha": "1b5321c37d1f1417e6711c4cab3d29ce8352e9c3",
+          "message": "fix(rag-wise-forum): fix topic creation when rag-wise is not enabled\n\n- error message will pop up when creating new forum topic\n- error arises due to nil error in ragwise settings for courses where rag wise is not enabled",
+          "author": {
+            "name": "Jonaspng",
+            "email": "jonaspng@hotmail.com"
+          },
+          "url": "https://github.com/Jonaspng/coursemology2/commit/1b5321c37d1f1417e6711c4cab3d29ce8352e9c3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-03-21T13:07:13Z"
   }
 ]
 

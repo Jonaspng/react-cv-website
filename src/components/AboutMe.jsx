@@ -8,13 +8,13 @@ function AboutMe() {
   return (
     <Box pt={10} id={"aboutme"} height={"100%"}>
       <Grid container height={"100%"}>
-        <Grid item xs={12} sm={6} padding={12} sx={{ display: { xs: 'none', sm: 'block' }, height:{md: 'auto'}}}>
+        <Grid size={{xs: 12, sm: 6}} padding={14} sx={{ display: { xs: 'none', sm: 'block' }, height:{md: 'auto'}}}>
         <CardMedia
           component="img"
           image="/webDevelopment.png"
         />
         </Grid>
-        <Grid item xs={12} sm={6} padding={4} display={'flex'} alignItems={'center'} justifyContent={'center'}>
+        <Grid size={{xs: 12, sm: 6}} padding={4} display={'flex'} alignItems={'center'} justifyContent={'center'}>
           <Box>
             <Typography variant="h1" gutterBottom fontSize={52} fontWeight={500} margin={0}>
               Hello!
@@ -23,7 +23,7 @@ function AboutMe() {
               I am Jonas Png.
             </Typography>
             <Typography variant="h3" gutterBottom fontSize={22} fontWeight={700} margin={0}>
-              Year 4 Computer Science Undergraduate @ <Link href='https://www.nus.edu.sg/' underline='none' color='white'>NUS</Link>
+              Bachelor of Computing (Computer Science), <Link href='https://www.nus.edu.sg/' underline='none' color='white'>NUS</Link>
             </Typography>
             <Typography variant="h6" gutterBottom fontSize={22} fontWeight={400} margin={0} sx={{ pt: 2, pb: 2}}>
               I have strong interest in Web Development, Artificial Intelligence and Cyber Security.
